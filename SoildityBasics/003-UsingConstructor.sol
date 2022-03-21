@@ -5,7 +5,7 @@ contract AdminAddress {
     
     address public admin;
     
-// Give a variable when deploying contract. ONLY CALLED ONCE...
+// Give a variable its value when deploying contract. ONLY CALLED ONCE...
     constructor(address _admin){
         admin = _admin;
     }
