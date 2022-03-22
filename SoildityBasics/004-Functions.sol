@@ -13,7 +13,7 @@ contract FunctionsInSolidlity {
 
     address public owner;
 
-    // function modifier => this sets a function to have certain contions met to execute. Basically amkes the function Special 
+
     modifier iOwnThis { 
         require(msg.sender == owner);
         _;
@@ -75,6 +75,11 @@ contract FunctionsInSolidlity {
     - return: the variable that matches the return type
 
     - payable: 
+
+    - function modifier => this sets a function to have certain contions met to execute. Basically makes the function Special 
+        - allow us to write preconditions for functions and apply them consistently
+        - making the code easier to read and make easier to audit for security
+        - most often used for access control ... can have multi purposes
 
  */
     
