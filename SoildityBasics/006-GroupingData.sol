@@ -35,7 +35,7 @@ contract ArrayData {
 
         // update 
         stringArray[0] = "Yo, yo, yo, yo";
-        stringArray[0];
+
     // iterate the array with a for loop
     }
 
@@ -80,4 +80,5 @@ contract MappingData {
 
 
 contract GroupingData is ArrayData, StructsData, MappingData {
+
 }
