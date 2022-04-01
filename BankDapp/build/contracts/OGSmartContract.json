@@ -1,0 +1,115 @@
+{
+  "contractName": "OGSmartContract",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/SimpleContract.sol\":\"OGSmartContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/SimpleContract.sol\":{\"keccak256\":\"0xb9f432a3d3281ef46de44af5ff673751276df998ccf1d85ee84ad5e8eb486b1c\",\"urls\":[\"bzz-raw://4f9ac802361bd164596e2fb71d925fb3d45e9dbfa4e1f3e7ad2d99b771650ec6\",\"dweb:/ipfs/QmYSnYbRbyxUoUd5AGQgxF1VDickyzLBGnQzs9eeaaVrPn\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122053046ffd507e5293f24cbc1b89606b6fbcba2c9a91b6a13d2ec96f9eede8606964736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122053046ffd507e5293f24cbc1b89606b6fbcba2c9a91b6a13d2ec96f9eede8606964736f6c634300080a0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "25:30:3:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "25:30:3:-:0;;;;;",
+  "source": "pragma solidity 0.8.10;\n\ncontract OGSmartContract {\n\n\n}",
+  "sourcePath": "/Users/victorogbebor/Documents/DevStuff/Solidity/BankDapp/contracts/SimpleContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/SimpleContract.sol",
+    "exportedSymbols": {
+      "OGSmartContract": [
+        557
+      ]
+    },
+    "id": 558,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 556,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:3"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "OGSmartContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 557,
+        "linearizedBaseContracts": [
+          557
+        ],
+        "name": "OGSmartContract",
+        "nameLocation": "34:15:3",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 558,
+        "src": "25:30:3",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:55:3"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/SimpleContract.sol",
+    "exportedSymbols": {
+      "OGSmartContract": [
+        557
+      ]
+    },
+    "id": 558,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 556,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:3"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "OGSmartContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 557,
+        "linearizedBaseContracts": [
+          557
+        ],
+        "name": "OGSmartContract",
+        "nameLocation": "34:15:3",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 558,
+        "src": "25:30:3",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:55:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2022-04-01T04:06:25.211Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
